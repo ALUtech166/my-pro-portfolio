@@ -16,15 +16,16 @@
 
 
 
-    <div class=" lg:tw-mx-8 tw-transform tw--translate-y-58 tw-bottom-0 tw-left-0 tw-px-8 tw-py-12">
+    <div class="lg:tw-mx-8 tw-transform tw--translate-y-58 tw-bottom-0 tw-left-0 tw-px-8 tw-py-12">
       <div class="lg:tw-flex lg:tw-flex-row sm:tw-flex sm:tw-flex-col lg:tw-justify-betwen lg:tw-gap-12">
 
-        <div class="tw-text-lg sm:tw-text-lg lg:tw-w-3/4">
+        <div class="tw-text-lg sm:tw-text-lg lg:tw-w-3/4 tw-mb-12">
           <h1 class="tw-text-black tw-text-8xl tw-font-extrabold">
             Get in <span class="text-color">touch.</span>
           </h1>
-          <p class="tw-text-black tw-text-xl tw-mt-2">a passionate frontend developer focused on creating interactive,
-            accessible, and responsive websites.</p>
+          <p class="tw-text-black tw-text-xl tw-mt-2">
+            Reach out to me anytime and I will get back to you within 24 hours.
+          </p>
           <div class="">
             <form
               class="tw-mt-2 tw-bg-white lg:tw-mt-0 tw-transform tw-translate-y-20 tw-shadow-2xl tw-rounded-xl tw-px-8 tw-py-16"
@@ -96,7 +97,7 @@
               </div>
 
               <button
-                class="tw-group bg-color tw-relative tw-h-12 tw-mt-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 hover:tw-shadow-2xl-blue-600 hover:tw-shadow-2xl-lg tw-w-48 tw-overflow-hidden tw-rounded-lg tw-text-lg tw-shadow-2xl-2xl">
+                class="tw-group bg-color tw-shadow-lg tw-rounded-lg tw-relative tw-h-12 tw-mt-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 hover:tw-shadow-2xl-blue-600 hover:tw-shadow-2xl-lg tw-w-48 tw-overflow-hidden tw-rounded-lg tw-text-lg tw-shadow-2xl-2xl">
                 <div
                   class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
                 </div>
@@ -112,15 +113,17 @@
         </div>
 
         <div class="lg:tw-mt-56 lg:tw-w-1/2 tw-items-center">
-          <img class="tw-rounded-lg tw-shadow-2xl tw-shadow-gray-900 tw-mb-8" data-aos="fade-up" src="https://img.freepik.com/free-photo/top-view-workspace-with-notebook-succulent-plant_23-2148430820.jpg?w=740&t=st=1690220651~exp=1690221251~hmac=a7249088cdb9fbe455226feccdb5ea68d2bd60b9c7ae35f497131c6e9a06e731">
+          <img class="tw-rounded-lg tw-shadow-2xl tw-shadow-gray-900 tw-mb-8" src="https://img.freepik.com/free-photo/top-view-workspace-with-notebook-succulent-plant_23-2148430820.jpg?w=740&t=st=1690220651~exp=1690221251~hmac=a7249088cdb9fbe455226feccdb5ea68d2bd60b9c7ae35f497131c6e9a06e731">
 
-              <h1 class="tw-text-black tw-text-xl tw-mt-2">Shoot us a mail</h1>
+             <div class="tw-shadow-2xl tw-rounded-lg tw-shadow-gray-900 tw-p-4">
+              <h1 class="tw-text-black tw-font-bold tw-text-xl tw-mt-2">Shoot me a mail:</h1>
               <p class="text-color tw-text-2xl tw-font-extrabold tw-mt-4">sergetassiga22@gmail.com</p>
 
-              <h2 class="tw-text-black tw-text-xl tw-mt-4">
-                You can always reach out by calling</h2>
+              <h2 class="tw-text-black tw-font-bold tw-text-xl tw-mt-4">
+                You can always reach out by calling:</h2>
               <p class="text-color tw-text-2xl tw-font-extrabold tw-mt-4">+250 785 658 174
               </p>
+             </div>
             </div>
 
 
@@ -129,7 +132,7 @@
 
     </div>
 
-    <div class="tw-mt-4 tw-shadow-2xl tw-rounded-lg tw-shadow-gray-900 lg:tw-px-8 tw-pb-4 tw-aspect-w-16 tw-aspect-h-7 tw-overflow-hidden" data-aos="fade-up">
+    <div class="tw-mt-4 tw-mx-8 lg:tw-mx-0 tw-shadow-2xl tw-rounded-lg tw-shadow-gray-900 lg:tw-px-8 tw-pb-4 tw-aspect-w-16 tw-aspect-h-7 tw-overflow-hidden" data-aos="fade-up">
 
       <iframe class="tw-shadow-2xl tw-rounded-lg tw-shadow-gray-900"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63800.26059361784!2d30.057428788649723!3d-1.94642533671203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca5a86d814c61%3A0x7d3b83e12b1c11a9!2sNorrsken%20House%20Kigali!5e0!3m2!1sfr!2srw!4v1684802051331!5m2!1sfr!2srw"

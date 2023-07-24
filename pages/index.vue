@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="lg:tw-mx-12">
+    <section class="lg:tw-mx-12 tw-mx-8">
       <div class="bg-image tw-py-24 tw-rounded-lg tw-shadow-2xl tw-shadow-gray-900 tw-h-full tw-w-full">
         <div
           class="tw-w-full tw-h-full tw-flex tw-flex-col tw-bg-black tw-bg-opacity-60 tw-p-12">
