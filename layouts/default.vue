@@ -65,7 +65,7 @@
           <v-col  class="tw-text-left tw-mt-8" cols="12" md="3" lg="3">
             <nuxt-link to="/">
             <h1 class="tw-text-4xl tw-font-extrabold tw-mb-4 text-color">
-              DotTerra
+              Serge
             </h1>
           </nuxt-link>
             <p class="tw-text-white tw-text-md tw-justify-center">
@@ -261,7 +261,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
 
 footer {
-  background-image: url(https://img.freepik.com/premium-photo/office-desk-top-view-with-office-supplies-overhead-shot_35674-13097.jpg?w=740);
+  background-image: url(https://img.freepik.com/free-photo/top-view-workspace-with-notebook-succulent-plant_23-2148430820.jpg?w=740&t=st=1690220651~exp=1690221251~hmac=a7249088cdb9fbe455226feccdb5ea68d2bd60b9c7ae35f497131c6e9a06e731);
   background-size: cover;
 }
 
