@@ -254,11 +254,11 @@ export default {
 }
 
 .bg-color {
-  background-color: #03989e;
+  background-color: #0C134F;
 }
 
 .text-color {
-  color: #03989e;
+  color: #0C134F;
 }
 
 

@@ -266,7 +266,7 @@ footer {
 }
 
 button {
-  border: 0.5px solid green;
+  border: 0.5px solid #0C134F;
 }
 
 button:hover {
@@ -274,11 +274,11 @@ button:hover {
 }
 
 .text-color {
-  color: #03989e;
+  color: #0C134F;
 }
 
 .bg-color {
-  background-color: #03989e;
+  background-color: #0C134F;
 }
 .font-sans {
   font-family: 'Josefin Sans', sans-serif;

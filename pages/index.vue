@@ -1,18 +1,18 @@
 <template>
   <div>
     <section class="lg:tw-mx-12 tw-mx-8">
-      <div class="bg-image tw-py-24 tw-rounded-lg tw-shadow-2xl tw-shadow-gray-900 tw-h-full tw-w-full">
+      <div class="tw-py-20 tw-rounded-lg tw-shadow-2xl tw-shadow-gray-900 tw-h-full tw-w-full">
         <div class="tw-w-full tw-h-full tw-flex tw-flex-col tw-bg-opacity-60 tw-p-8 tw-pt-4">
-          <div class="tw-text-left tw-px-8 tw-h-full">
-            <p class="tw-text-white tw-text-xl tw-mb-4">Hello, I am</p>
-            <h1 class="tw-text-white tw-text-7xl tw-font-extrabold lg:tw-w-1/2">
+          <div class="tw-text-left tw-px-4 tw-h-full lg:tw-mx-12 tw-mx-8">
+            <p class="tw-text-black tw-text-xl tw-mb-4">Hello, I am</p>
+            <h1 class="tw-text-black tw-text-7xl tw-font-extrabold lg:tw-w-1/2">
               Serge Anan
             </h1>
             <h1 class="text-color tw-mt-4 tw-text-7xl tw-font-extrabold lg:tw-w-1/2">
               TASSIGA
             </h1>
 
-            <p class="tw-text-white tw-text-xl lg:tw-w-1/2 tw-mt-4">a passionate frontend developer focused on creating
+            <p class="tw-text-black tw-text-xl lg:tw-w-1/2 tw-mt-4">a passionate frontend developer focused on creating
               interactive, accessible, and responsive websites.</p>
 
             <button
@@ -200,23 +200,23 @@ export default {
 
 
 <style scoped>button {
-  border: 1px solid #03989e;
+  border: 1px solid #0C134F;
   background-color: white;
 }
 
 
 .bg-color:hover {
-  background-color: #03989e;
+  background-color: #0C134F;
   color: white;
 }
 
 .bg-color {
-  background-color: #03989e;
+  background-color: #0C134F;
   color: white;
 }
 
 .bg-color-1 {
-  background-color: #03989e;
+  background-color: #0C134F;
 }
 
 .bg-image {
@@ -233,7 +233,7 @@ export default {
 
 
 .text-color {
-  color: #03989e;
+  color: #0C134F;
 }
 
 /* Popup */
