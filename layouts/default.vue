@@ -56,57 +56,20 @@
     </div>
 
 
-    <footer class="tw-text-white">
-
-      <div class="tw-relative tw-w-full tw-h-full tw-p-12 tw-pb-4 tw-bg-black tw-bg-opacity-80">
-
-        <v-row class="">
-
-          <v-col  class="tw-text-left tw-mt-8" cols="12" md="3" lg="3">
-            <nuxt-link to="/">
-            <h1 class="tw-text-4xl tw-font-extrabold tw-mb-4 text-color">
-              Serge
-            </h1>
-          </nuxt-link>
-            <p class="tw-text-white tw-text-md tw-justify-center">
-              Every image featured on this website has been designed using Canvas.
-            </p>
-          </v-col>
-
-          <v-col class="tw-mt-8" cols="12" md="3" lg="3">
-            <h3 class="tw-text-white tw-font-extrabold tw-mb-4">Contact Us</h3>
-            <p class="tw-text-white tw-text-md">
-              <span class="tw-mb-12"><strong>Location:</strong> Pamplemousses, Mauritius</span><br>
-
-              <span class="tw-mb-12"><strong>Hours:</strong>
-                Tue – Thu
-                7:30AM – 5:30PM</span> <br />
-              <a href="mailto:info@dotterra.net" class="tw-text-white tw-mb-8">
-                <strong>Email:</strong>
-                info@dotterra.net</a><br />
-              <a href="tel:+250-784-206-989" class="tw-text-white tw-mb-8"><strong>Tel:</strong> +250 784 206 989</a>
-            </p>
-          </v-col>
-          <v-col class="tw-mt-8" cols="12" md="6" lg="3">
-            <h3 class="tw-text-white tw-font-extrabold tw-mb-4">Useful Links</h3>
-            <ul class="tw-list-disc tw-list-inside tw-text-gray-400 tw-leading-6">
-              <li>
-                <a href="/privacy" class="tw-text-white">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="/contact" class="tw-text-white">Contact us</a>
-              </li>
+    <footer class="tw-text-black tw-rounded-t-lg">
 
 
-            </ul>
-          </v-col>
-          <v-col class="tw-mt-8" cols="12" md="6" lg="3">
-            <h3 class="tw-text-white tw-font-extrabold tw-mb-4">Connect with Us</h3>
-            <div class="tw-mb-4">
-              <ul class="tw-flex tw-items-center tw-gap-4">
+
+      <div class="tw-relative tw-w-full tw-h-full tw-p-12 tw-pb-4">
+
+                <div class="tw-text-center tw-text-black">
+
+                  <div class="tw-mb-4">
+              <ul class="tw-flex tw-justify-center tw-text-center tw-items-center tw-gap-4">
                 <li>
                   <a href="https://www.linkedin.com/company/sheba-plastic/" target="_blank" class="tw-text-white">
-                    <svg width="32" height="32" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
+                    <svg class="" width="20" height="20" viewBox="0 0 16 16"
+                      xmlns="http://www.w3.org/2000/svg" fill="none">
                       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                       <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                       <g id="SVGRepo_iconCarrier">
@@ -119,8 +82,9 @@
 
                 <li>
                   <a href="https://twitter.com/ShebaPlastic" target="_blank" class="tw-text-white">
-                    <svg width="32" height="32" viewBox="0 -4 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                    <svg class="" width="20" height="20" viewBox="0 -4 48 48"
+                      version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      fill="#000000">
                       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                       <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                       <g id="SVGRepo_iconCarrier">
@@ -141,7 +105,8 @@
 
                 <li>
                   <a href="https://www.instagram.com/sheba_plastic/" target="_blank" class="tw-text-white">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="" width="20" height="20" viewBox="0 0 32 32" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                       <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                       <g id="SVGRepo_iconCarrier">
@@ -183,31 +148,683 @@
                   </a>
                 </li>
 
-                <!--  <li>
-                <a href="#" class="tw-text-white">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                    class="bi bi-facebook" viewBox="0 0 16 16" id="IconChangeColor">
-                    <path
-                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-                      id="mainIconPathAttribute" fill="#ffffff" filter="url(#shadow)"></path>
-                    <filter id="shadow">
-                      <feDropShadow id="shadowValue" stdDeviation=".5" dx="0" dy="0" flood-color="black">
-                      </feDropShadow>
-                    </filter>
-                  </svg>
-                </a>
-              </li>
- -->
+                <li>
+                  <a href="#" class="tw-text-white">
+                    <svg class="" width="20" height="20" viewBox="0 0 100 100"
+                      version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <style type="text/css">
+                          .st0 {
+                            fill: #FFFFFF;
+                          }
+
+                          .st1 {
+                            fill: #F5BB41;
+                          }
+
+                          .st2 {
+                            fill: #2167D1;
+                          }
+
+                          .st3 {
+                            fill: #3D84F3;
+                          }
+
+                          .st4 {
+                            fill: #4CA853;
+                          }
+
+                          .st5 {
+                            fill: #398039;
+                          }
+
+                          .st6 {
+                            fill: #D74F3F;
+                          }
+
+                          .st7 {
+                            fill: #D43C89;
+                          }
+
+                          .st8 {
+                            fill: #B2005F;
+                          }
+
+                          .st9 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+
+                          .st10 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+
+                          .st11 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: none;
+                            stroke: #040404;
+                            stroke-width: 3;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                          }
+
+                          .st12 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                          }
+
+                          .st13 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: #040404;
+                          }
+
+                          .st14 {
+                            fill: url(#SVGID_1_);
+                          }
+
+                          .st15 {
+                            fill: url(#SVGID_2_);
+                          }
+
+                          .st16 {
+                            fill: url(#SVGID_3_);
+                          }
+
+                          .st17 {
+                            fill: url(#SVGID_4_);
+                          }
+
+                          .st18 {
+                            fill: url(#SVGID_5_);
+                          }
+
+                          .st19 {
+                            fill: url(#SVGID_6_);
+                          }
+
+                          .st20 {
+                            fill: url(#SVGID_7_);
+                          }
+
+                          .st21 {
+                            fill: url(#SVGID_8_);
+                          }
+
+                          .st22 {
+                            fill: url(#SVGID_9_);
+                          }
+
+                          .st23 {
+                            fill: url(#SVGID_10_);
+                          }
+
+                          .st24 {
+                            fill: url(#SVGID_11_);
+                          }
+
+                          .st25 {
+                            fill: url(#SVGID_12_);
+                          }
+
+                          .st26 {
+                            fill: url(#SVGID_13_);
+                          }
+
+                          .st27 {
+                            fill: url(#SVGID_14_);
+                          }
+
+                          .st28 {
+                            fill: url(#SVGID_15_);
+                          }
+
+                          .st29 {
+                            fill: url(#SVGID_16_);
+                          }
+
+                          .st30 {
+                            fill: url(#SVGID_17_);
+                          }
+
+                          .st31 {
+                            fill: url(#SVGID_18_);
+                          }
+
+                          .st32 {
+                            fill: url(#SVGID_19_);
+                          }
+
+                          .st33 {
+                            fill: url(#SVGID_20_);
+                          }
+
+                          .st34 {
+                            fill: url(#SVGID_21_);
+                          }
+
+                          .st35 {
+                            fill: url(#SVGID_22_);
+                          }
+
+                          .st36 {
+                            fill: url(#SVGID_23_);
+                          }
+
+                          .st37 {
+                            fill: url(#SVGID_24_);
+                          }
+
+                          .st38 {
+                            fill: url(#SVGID_25_);
+                          }
+
+                          .st39 {
+                            fill: url(#SVGID_26_);
+                          }
+
+                          .st40 {
+                            fill: url(#SVGID_27_);
+                          }
+
+                          .st41 {
+                            fill: url(#SVGID_28_);
+                          }
+
+                          .st42 {
+                            fill: url(#SVGID_29_);
+                          }
+
+                          .st43 {
+                            fill: url(#SVGID_30_);
+                          }
+
+                          .st44 {
+                            fill: url(#SVGID_31_);
+                          }
+
+                          .st45 {
+                            fill: url(#SVGID_32_);
+                          }
+
+                          .st46 {
+                            fill: url(#SVGID_33_);
+                          }
+
+                          .st47 {
+                            fill: url(#SVGID_34_);
+                          }
+
+                          .st48 {
+                            fill: url(#SVGID_35_);
+                          }
+
+                          .st49 {
+                            fill: url(#SVGID_36_);
+                          }
+
+                          .st50 {
+                            fill: url(#SVGID_37_);
+                          }
+
+                          .st51 {
+                            fill: url(#SVGID_38_);
+                          }
+
+                          .st52 {
+                            fill: url(#SVGID_39_);
+                          }
+
+                          .st53 {
+                            fill: url(#SVGID_40_);
+                          }
+
+                          .st54 {
+                            fill: url(#SVGID_41_);
+                          }
+
+                          .st55 {
+                            fill: url(#SVGID_42_);
+                          }
+
+                          .st56 {
+                            fill: url(#SVGID_43_);
+                          }
+
+                          .st57 {
+                            fill: url(#SVGID_44_);
+                          }
+
+                          .st58 {
+                            fill: url(#SVGID_45_);
+                          }
+
+                          .st59 {
+                            fill: #040404;
+                          }
+
+                          .st60 {
+                            fill: url(#SVGID_46_);
+                          }
+
+                          .st61 {
+                            fill: url(#SVGID_47_);
+                          }
+
+                          .st62 {
+                            fill: url(#SVGID_48_);
+                          }
+
+                          .st63 {
+                            fill: url(#SVGID_49_);
+                          }
+
+                          .st64 {
+                            fill: url(#SVGID_50_);
+                          }
+
+                          .st65 {
+                            fill: url(#SVGID_51_);
+                          }
+
+                          .st66 {
+                            fill: url(#SVGID_52_);
+                          }
+
+                          .st67 {
+                            fill: url(#SVGID_53_);
+                          }
+
+                          .st68 {
+                            fill: url(#SVGID_54_);
+                          }
+
+                          .st69 {
+                            fill: url(#SVGID_55_);
+                          }
+
+                          .st70 {
+                            fill: url(#SVGID_56_);
+                          }
+
+                          .st71 {
+                            fill: url(#SVGID_57_);
+                          }
+
+                          .st72 {
+                            fill: url(#SVGID_58_);
+                          }
+
+                          .st73 {
+                            fill: url(#SVGID_59_);
+                          }
+
+                          .st74 {
+                            fill: url(#SVGID_60_);
+                          }
+
+                          .st75 {
+                            fill: url(#SVGID_61_);
+                          }
+
+                          .st76 {
+                            fill: url(#SVGID_62_);
+                          }
+
+                          .st77 {
+                            fill: none;
+                            stroke: #000000;
+                            stroke-width: 3;
+                            stroke-miterlimit: 10;
+                          }
+
+                          .st78 {
+                            fill: none;
+                            stroke: #FFFFFF;
+                            stroke-miterlimit: 10;
+                          }
+
+                          .st79 {
+                            fill: #4BC9FF;
+                          }
+
+                          .st80 {
+                            fill: #5500DD;
+                          }
+
+                          .st81 {
+                            fill: #FF3A00;
+                          }
+
+                          .st82 {
+                            fill: #E6162D;
+                          }
+
+                          .st83 {
+                            fill: #F1F1F1;
+                          }
+
+                          .st84 {
+                            fill: #FF9933;
+                          }
+
+                          .st85 {
+                            fill: #B92B27;
+                          }
+
+                          .st86 {
+                            fill: #00ACED;
+                          }
+
+                          .st87 {
+                            fill: #BD2125;
+                          }
+
+                          .st88 {
+                            fill: #1877F2;
+                          }
+
+                          .st89 {
+                            fill: #6665D2;
+                          }
+
+                          .st90 {
+                            fill: #CE3056;
+                          }
+
+                          .st91 {
+                            fill: #5BB381;
+                          }
+
+                          .st92 {
+                            fill: #61C3EC;
+                          }
+
+                          .st93 {
+                            fill: #E4B34B;
+                          }
+
+                          .st94 {
+                            fill: #181EF2;
+                          }
+
+                          .st95 {
+                            fill: #FF0000;
+                          }
+
+                          .st96 {
+                            fill: #FE466C;
+                          }
+
+                          .st97 {
+                            fill: #FA4778;
+                          }
+
+                          .st98 {
+                            fill: #FF7700;
+                          }
+
+                          .st99 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: #1F6BF6;
+                          }
+
+                          .st100 {
+                            fill: #520094;
+                          }
+
+                          .st101 {
+                            fill: #4477E8;
+                          }
+
+                          .st102 {
+                            fill: #3D1D1C;
+                          }
+
+                          .st103 {
+                            fill: #FFE812;
+                          }
+
+                          .st104 {
+                            fill: #344356;
+                          }
+
+                          .st105 {
+                            fill: #00CC76;
+                          }
+
+                          .st106 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: #345E90;
+                          }
+
+                          .st107 {
+                            fill: #1F65D8;
+                          }
+
+                          .st108 {
+                            fill: #EB3587;
+                          }
+
+                          .st109 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: #603A88;
+                          }
+
+                          .st110 {
+                            fill: #E3CE99;
+                          }
+
+                          .st111 {
+                            fill: #783AF9;
+                          }
+
+                          .st112 {
+                            fill: #FF515E;
+                          }
+
+                          .st113 {
+                            fill: #FF4906;
+                          }
+
+                          .st114 {
+                            fill: #503227;
+                          }
+
+                          .st115 {
+                            fill: #4C7BD9;
+                          }
+
+                          .st116 {
+                            fill: #69C9D0;
+                          }
+
+                          .st117 {
+                            fill: #1B92D1;
+                          }
+
+                          .st118 {
+                            fill: #EB4F4A;
+                          }
+
+                          .st119 {
+                            fill: #513728;
+                          }
+
+                          .st120 {
+                            fill: #FF6600;
+                          }
+
+                          .st121 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: #B61438;
+                          }
+
+                          .st122 {
+                            fill: #FFFC00;
+                          }
+
+                          .st123 {
+                            fill: #141414;
+                          }
+
+                          .st124 {
+                            fill: #94D137;
+                          }
+
+                          .st125 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: #F1F1F1;
+                          }
+
+                          .st126 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: #66E066;
+                          }
+
+                          .st127 {
+                            fill: #2D8CFF;
+                          }
+
+                          .st128 {
+                            fill: #F1A300;
+                          }
+
+                          .st129 {
+                            fill: #4BA2F2;
+                          }
+
+                          .st130 {
+                            fill: #1A5099;
+                          }
+
+                          .st131 {
+                            fill: #EE6060;
+                          }
+
+                          .st132 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            fill: #F48120;
+                          }
+
+                          .st133 {
+                            fill: #222222;
+                          }
+
+                          .st134 {
+                            fill: url(#SVGID_63_);
+                          }
+
+                          .st135 {
+                            fill: #0077B5;
+                          }
+
+                          .st136 {
+                            fill: #FFCC00;
+                          }
+
+                          .st137 {
+                            fill: #EB3352;
+                          }
+
+                          .st138 {
+                            fill: #F9D265;
+                          }
+
+                          .st139 {
+                            fill: #F5B955;
+                          }
+
+                          .st140 {
+                            fill: #DD2A7B;
+                          }
+
+                          .st141 {
+                            fill: #66E066;
+                          }
+
+                          .st142 {
+                            fill: #EB4E00;
+                          }
+
+                          .st143 {
+                            fill: #FFC794;
+                          }
+
+                          .st144 {
+                            fill: #B5332A;
+                          }
+
+                          .st145 {
+                            fill: #4E85EB;
+                          }
+
+                          .st146 {
+                            fill: #58A45C;
+                          }
+
+                          .st147 {
+                            fill: #F2BC42;
+                          }
+
+                          .st148 {
+                            fill: #D85040;
+                          }
+
+                          .st149 {
+                            fill: #464EB8;
+                          }
+
+                          .st150 {
+                            fill: #7B83EB;
+                          }
+                        </style>
+                        <g id="Layer_1"></g>
+                        <g id="Layer_2">
+                          <g>
+                            <path class="st88"
+                              d="M50,2.5c-58.892,1.725-64.898,84.363-7.46,95l0,0h0H50h7.46l0,0C114.911,86.853,108.879,4.219,50,2.5z">
+                            </path>
+                            <path class="st83"
+                              d="M57.46,64.104h11.125l2.117-13.814H57.46v-8.965c0-3.779,1.85-7.463,7.781-7.463h6.021 c0,0,0-11.761,0-11.761c-12.894-2.323-28.385-1.616-28.722,17.66V50.29H30.417v13.814H42.54c0,0,0,33.395,0,33.396H50h7.46l0,0h0 V64.104z">
+                            </path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <svg width="20" height="20" fill="#000000" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></g></svg>                </li>
+
 
               </ul>
             </div>
-          </v-col>
-        </v-row>
-
-          
-        <v-divider class="tw-my-4 tw-text-white tw-bg-white"></v-divider>
-        <div class="tw-text-center tw-text-white">
-          <p>&copy; 2023 DotTerra. All rights reserved</p>
+          <p>&copy; 2023 Serge Tassiga. All rights reserved</p>
         </div>
 
 
@@ -258,15 +875,16 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 footer {
-  background-image: url(https://img.freepik.com/free-photo/top-view-workspace-with-notebook-succulent-plant_23-2148430820.jpg?w=740&t=st=1690220651~exp=1690221251~hmac=a7249088cdb9fbe455226feccdb5ea68d2bd60b9c7ae35f497131c6e9a06e731);
+  background-image: url('https://img.freepik.com/free-photo/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products-plain-studio-background_1258-54444.jpg');
   background-size: cover;
+  height: 100%;
 }
 
 button {
-  border: 0.5px solid #0C134F;
+  border: 0.5px solid #FD8D14;
 }
 
 button:hover {
@@ -274,15 +892,14 @@ button:hover {
 }
 
 .text-color {
-  color: #0C134F;
+  color: #FD8D14;
 }
 
 .bg-color {
-  background-color: #0C134F;
+  background-color: #FD8D14;
 }
 .font-sans {
   font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
 }
 
 /* Popup */
