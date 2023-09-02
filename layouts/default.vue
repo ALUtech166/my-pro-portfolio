@@ -35,13 +35,13 @@
 
           <li @click="closeMenu">
             <nuxt-link to="/about" :class="$route.path === '/about' ? 'active' : ''"
-              class="text-black font-medium	hover:text-blue-800 text-md hover:no-underline">About Us</nuxt-link>
+              class="text-black font-medium	hover:text-blue-800 text-md hover:no-underline">About Me</nuxt-link>
           </li>
          
 
           <li @click="closeMenu">
             <nuxt-link to="/contact" :class="$route.path === '/contact' ? 'active' : ''"
-              class="text-black font-medium	hover:text-blue-800 text-md hover:no-underline">Contact Us</nuxt-link>
+              class="text-black font-medium	hover:text-blue-800 text-md hover:no-underline">Contact</nuxt-link>
           </li>
         
 

@@ -10,9 +10,26 @@
         <h1 class="tw-text-4xl tw-font-bold tw-text-white" data-aos="fade-up">Contact Us</h1>
       </div>
     </div>
-    <div class="tw-flex tw-items-center tw-space-x-2 tw-px-8">
-      <v-breadcrumbs :items="breadcrumbItems" divider="/" class="tw-text-lg tw-font-extrabold"></v-breadcrumbs>
-    </div>
+  
+    <v-card-actions class="tw-mx-6">
+      <nuxt-link to="/"
+        class="tw-group tw-relative tw-font-extrabold xl:tw-px-6 tw-px-4 tw-py-2 xl:tw-py-3 tw-rounded-lg tw-shadow-2xl tw-h-12 tw-mt-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 hover:tw-shadow-yellow-600 tw-border hover:tw-shadow-lg tw-overflow-hidden tw-rounded-lg tw-bg-white tw-text-lg tw-shadow-2xl">
+        <div
+          class="tw-absolute tw-items-center tw-inset-0 tw-w-5 tw-bg-yellow-600 tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
+        </div>
+       
+        <span class="tw-relative tw-inline-flex tw-items-center tw-gap-2 tw-text-black group-hover:tw-text-white">
+          <svg class="tw-w-5 tw-h-5 tw--transition-all tw-duration-[250ms] tw-ease-out"
+            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M20 11H7.414l5.293-5.293a1 1 0 1 0-1.414-1.414l-7 7a.997.997 0 0 0-.001 1.414l7 7a1 1 0 0 0 1.414-1.414L7.414 13H20a1 1 0 0 0 0-2z" />
+          </svg>
+          Back Home
+        </span>
+
+      
+      </nuxt-link>
+    </v-card-actions>
 
 
 
