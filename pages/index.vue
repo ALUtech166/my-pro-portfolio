@@ -335,9 +335,8 @@
         </v-col>
         <v-col class="" cols="12" md="6" lg="6">
 
-
           <div
-            class="tw-flex tw-flex-col lg:tw-w-1/2 tw-gap-4 tw-bg-transparent tw-shadow-gray-400 tw-shadow-xl tw-p-6 tw-rounded-lg">
+            class="tw-bg-white lg:tw-w-3/4 tw-flex tw-flex-col tw-gap-4 tw-bg-transparent tw-shadow-gray-400 tw-shadow-xl tw-p-6 tw-rounded-lg">
             <svg width="100" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -455,7 +454,7 @@
 
 
           <div
-            class="tw-flex lg:tw-transform lg:tw--translate-y-40 lg:tw-translate-x-72 tw-flex-col lg:tw-w-1/2 tw-gap-4 tw-bg-transparent tw-shadow-gray-400 tw-shadow-xl tw-p-6 tw-rounded-lg">
+            class="tw-bg-white lg:tw-w-3/4 tw-flex lg:tw-transform lg:tw--translate-y-20 lg:tw-translate-x-40 tw-flex-col tw-gap-4 tw-bg-transparent tw-shadow-gray-400 tw-shadow-xl tw-p-6 tw-rounded-lg">
             <svg width="100" viewBox="0 0 14 14" role="img" focusable="false" aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg" fill="#000000">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -504,7 +503,7 @@
 
 
           <div
-            class="tw-flex lg:tw-transform lg:tw--translate-y-2 tw-flex-col lg:tw-w-1/2 tw-gap-4 tw-bg-transparent tw-shadow-gray-400 tw-shadow-xl tw-p-6 tw-rounded-lg"
+            class="tw-bg-white lg:tw-w-3/4 tw-flex lg:tw-transform lg:tw-translate-x-60 lg:tw--translate-y-40 tw-flex-col tw-gap-4 tw-bg-transparent tw-shadow-gray-400 tw-shadow-xl tw-p-6 tw-rounded-lg"
             data-aos="fade-up">
             <svg width="100" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg"
               fill="#000000">
@@ -621,9 +620,10 @@
 
     <section class="tw-p-6 tw-px-24 tw-pt-24">
       <div class="tw-text-center tw-items-center" data-aos="fade-up">
+        <div class="tw-text-center tw-items-center" data-aos="fade-up">
         <h1 class="tw-text-black tw-text-5xl tw-font-extrabold">
-          Recent
-          <strong class="text-color">Projects</strong>
+          My
+          <strong class="text-color">Works</strong>
         </h1>
 
         <p class="tw-text-black tw-text-md lg:tw-mx-32 tw-mb-8">
@@ -631,6 +631,7 @@
           These projects showcase our expertise in frontend development, data science, and our commitment to delivering
           excellence.
         </p>
+      </div>
 
         <portfolio></portfolio>
 

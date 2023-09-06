@@ -64,6 +64,8 @@
 
 
 
+
+
           </div>
         </v-col>
 
@@ -71,8 +73,43 @@
       </v-row>
 
     </section>
+    <section class="tw-p-6 tw-px-24 tw-pt-24">
+    <v-row class="tw-mx-12">
+      <v-col class="" cols="12" md="6" lg="6">
+          <div class="tw-p-4 tw-pt-16" data-aos="fade-up">
+            <h1 class="tw-text-black tw-text-5xl tw-font-extrabold tw-text-justify">
+              My <br>
+              <strong class="text-color">Skills</strong>
+            </h1>
+
+            <p class="tw-text-md tw-text-gray-800 tw-font-medium tw-text-justify tw-pt-4 tw-mb-2 lg:tw-w-3/4">
+              Dive into the versatile realm of coding languages, from front-end web development with HTML, CSS, and
+            </p>
+
+            <button @click="$router.push('/contact')"
+              class="tw-group bg-hover tw-shadow-lg tw-rounded-lg tw-relative tw-h-12 tw-mt-2 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 tw-shadow-yellow-600 hover:tw-shadow-2xl tw-w-48 tw-overflow-hidden tw-rounded-lg tw-text-lg tw-shadow-2xl">
+              <div
+                class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
+              </div>
+              <span class="tw-relative tw-inline-flex tw-items-center tw-gap-2 tw-text-white group-hover:tw-text-white">
+                Hire Me
+
+              </span>
+            </button>
+
+          </div>
+        </v-col>
+      <v-col class="" cols="12" md="6" lg="6">
+
+        <Skills></Skills>
+      </v-col>
+    </v-row>
+
+    </section>
 
 
+
+    <!-- 
     <section class="tw-p-6 tw-px-24 tw-pt-24 tw-text-center tw-items-center">
       <div class="tw-text-center tw-items-center" data-aos="fade-up">
         <h1 class="tw-text-black tw-text-5xl tw-font-extrabold">
@@ -88,13 +125,14 @@
       </div>
       <portfolio></portfolio>
     </section>
-
+ -->
   </div>
 </template>
 
 <script>
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Skills from '../components/Skills.vue';
 
 export default {
   data() {
@@ -118,8 +156,7 @@ export default {
       this.initialized = true;
     }
   },
-
-
+  components: { Skills }
 }
 </script>
 <style scoped>
@@ -141,4 +178,5 @@ export default {
 
 button {
   color: black
-}</style>
+}
+</style>
