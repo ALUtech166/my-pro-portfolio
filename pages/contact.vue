@@ -33,11 +33,11 @@
 
 
 
-    <div class="lg:tw-mx-8 tw-transform tw--translate-y-58 tw-bottom-0 tw-left-0 tw-px-8 tw-py-12">
+    <div class="lg:tw-mx-8 tw-transform tw--translate-y-58 tw-bottom-0 tw-left-0 lg:tw-px-8 tw-px-4 tw-py-12">
       <div class="lg:tw-flex lg:tw-flex-row sm:tw-flex sm:tw-flex-col lg:tw-justify-betwen lg:tw-gap-12">
 
-        <div class="tw-text-lg sm:tw-text-lg lg:tw-w-3/4 tw-mb-12">
-          <h1 class="tw-text-black tw-text-8xl tw-font-extrabold">
+        <div class="tw-text-lg sm:tw-text-lg lg:tw-w-3/4 lg:tw-mb-12">
+          <h1 class="tw-text-black lg:tw-text-8xl tw-text-4xl tw-font-extrabold">
             Get in <span class="text-color">touch.</span>
           </h1>
           <p class="tw-text-black tw-text-xl tw-mt-2">
@@ -45,7 +45,7 @@
           </p>
           <div class="">
             <form
-              class="tw-mt-2 tw-bg-white lg:tw-mt-0 tw-transform tw-translate-y-20 tw-shadow-2xl tw-rounded-xl tw-px-8 tw-py-16"
+              class="lg:tw-mt-2 tw-bg-white lg:tw-mt-0 lg:tw-transform lg:tw-translate-y-20 tw-shadow-2xl tw-rounded-xl lg:tw-px-8 tw-px-6 tw-py-10 lg:tw-py-16"
               v-on:submit.prevent="sendMessage">
 
               <div class="tw-w-full tw-md:w-1/2">
@@ -107,7 +107,7 @@
         </div>
 
         <div class="lg:tw-mt-56 lg:tw-w-1/2 tw-items-center">
-          <img class="tw-rounded-lg tw-shadow-2xl tw-shadow-gray-300 tw-mb-8" src="https://img.freepik.com/free-photo/businessmen-hands-white-table-with-documents-drafts_176420-354.jpg?w=740&t=st=1693316696~exp=1693317296~hmac=4d5dd6c602e96f8eb10e33b3219c6127a96658bfde3c8c266ad17c71b9e89201">
+          <img class="tw-pt-12 tw-rounded-lg tw-shadow-2xl tw-shadow-gray-300 tw-mb-8" src="https://img.freepik.com/free-photo/businessmen-hands-white-table-with-documents-drafts_176420-354.jpg?w=740&t=st=1693316696~exp=1693317296~hmac=4d5dd6c602e96f8eb10e33b3219c6127a96658bfde3c8c266ad17c71b9e89201">
 
              <div class="tw-shadow-2xl tw-rounded-lg tw-shadow-gray-300 tw-p-4">
               <h1 class="tw-text-black tw-font-bold tw-text-xl tw-mt-2">Shoot me a mail:</h1>

@@ -30,8 +30,8 @@
       </nuxt-link>
     </v-card-actions>
 
-    <section class="tw-p-6 lg:tw-px-24 tw-px-4 tw-pt-24">
-      <v-row class="tw-mx-12">
+    <section class="tw-p-6 lg:tw-px-24 tw-px-2 lg:tw-pt-24">
+      <v-row class="lg:tw-mx-12">
         <v-col class="" cols="12" md="6" lg="6">
 
 
@@ -73,10 +73,10 @@
       </v-row>
 
     </section>
-    <section class="tw-p-6 lg:tw-px-24 tw-px-4 tw-pt-24">
-    <v-row class="tw-mx-12">
+    <section class="tw-p-6 lg:tw-px-24 tw-px-4 lg:tw-pt-24">
+    <v-row class="lg:tw-mx-12">
       <v-col class="" cols="12" md="6" lg="6">
-          <div class="tw-p-4 tw-pt-16" data-aos="fade-up">
+          <div class="tw-p-4 lg:tw-pt-16" data-aos="fade-up">
             <h1 class="tw-text-black tw-text-5xl tw-font-extrabold tw-text-justify">
               My
               <strong class="text-color">Skills</strong>

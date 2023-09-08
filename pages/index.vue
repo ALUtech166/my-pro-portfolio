@@ -1,9 +1,9 @@
 <template>
   <div>
-    <section class="lg:tw-mx-0 tw-mx-8">
-      <div class="tw-py-18 tw-pt-6 tw-h-full tw-w-full">
+    <section class="lg:tw-mx-0 tw-mx-1">
+      <div class="lg:tw-py-18 tw-py-6 tw-pt-6 tw-h-full tw-w-full">
         <div class="tw-w-full tw-h-full tw-flex tw-flex-col lg:tw-flex-row tw-p-4 tw-pt-4">
-          <div class="tw-text-left tw-pt-12 tw-px-4 tw-h-full lg:tw-mx-12 tw-mx-8" data-aos="fade-up">
+          <div class="tw-text-left tw-pt-12 tw-px-4 tw-h-full lg:tw-mx-12 tw-mx-1" data-aos="fade-up">
             <h1 class="tw-text-black tw-text-6xl tw-font-extrabold lg:tw-w-3/4">
               Serge Anan
             </h1>
@@ -15,7 +15,7 @@
               Frontend Developer | Data Scientist
             </h2>
 
-            <p class="tw-text-black tw-text-md tw-mt-4">Welcome to my online portfolio. I'm Serge Anan Tassiga, a
+            <p class="tw-text-black tw-text-md tw-mt-4 tw-text-justify">Welcome to my online portfolio. I'm Serge Anan Tassiga, a
               dedicated Frontend Developer and Data Scientist with a strong focus on delivering interactive, accessible,
               and responsive web solutions.</p>
             <!-- <p class="tw-text-black tw-text-md tw-mt-4">Let's turn your ideas into outstanding digital experiences. Explore my work or get in touch to discuss your next project.</p> -->
@@ -41,7 +41,7 @@
       </div>
 
       <!-- <div
-        class="bg-color tw-shadow-2xl tw-rounded-lg tw-shadow-gray-800 lg:tw-mx-24 tw-mx-8 tw-transform tw--translate-y-20 tw-bottom-0 tw-left-0 tw-px-8 tw-py-12">
+        class="bg-color tw-shadow-2xl tw-rounded-lg tw-shadow-gray-800 lg:tw-mx-24 tw-mx-1 tw-transform tw--translate-y-20 tw-bottom-0 tw-left-0 tw-px-8 tw-py-12">
         <h1 class="tw-font-extrabold lg:tw-text-4xl tw-text-center tw-text-white tw-text-2xl tw-p-4">
           "Think before you toss! Unleash your creativity
           and give plastic a second life"
@@ -49,7 +49,7 @@
       </div> -->
     </section>
 
-    <section class="lg:tw-mx-12 tw-mx-8 tw-p-6 lg:tw-pt-24">
+    <section class="lg:tw-mx-12 tw-mx-1 tw-p-6 lg:tw-pt-24">
       <v-row>
 
 
@@ -268,8 +268,8 @@
           <div class="">
             <div class="tw-bg-white tw-rounded-lg">
 
-              <div class="tw-p-4" data-aos="fade-up">
-                <h1 class="text-color tw-text-5xl tw-font-extrabold tw-text-justify">
+              <div class="lg:tw-p-4 tw-p-2" data-aos="fade-up">
+                <h1 class="text-color lg:tw-text-5xl tw-text-4xl tw-font-extrabold tw-text-justify">
                   Let's Level Up <br>
                   Your Business With
                   <strong class="tw-text-black">Digital Media</strong>
@@ -626,8 +626,7 @@
           <strong class="text-color">Works</strong>
         </h1>
 
-        <p class="tw-text-black tw-text-md lg:tw-mx-32 tw-mb-8">
-          Explore a selection of our latest endeavors and discover the innovative solutions we've crafted for our clients.
+        <p class="tw-text-black tw-text-md lg:tw-mx-56 tw-mb-8">
           These projects showcase our expertise in frontend development, data science, and our commitment to delivering
           excellence.
         </p>
