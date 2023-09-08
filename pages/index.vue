@@ -49,7 +49,7 @@
       </div> -->
     </section>
 
-    <section class="lg:tw-mx-12 tw-mx-8 tw-p-6 tw-pt-24">
+    <section class="lg:tw-mx-12 tw-mx-8 tw-p-6 lg:tw-pt-24">
       <v-row>
 
 
@@ -305,7 +305,7 @@
     </section>
 
 
-    <section class="service tw-p-6 tw-px-24 tw-pt-24">
+    <section class="service tw-p-6 lg:tw-px-24 tw-px-4 lg:tw-pt-24">
 
       <v-row class="tw-mx-12">
         <v-col class="" cols="12" md="6" lg="6">
@@ -320,16 +320,16 @@
               science to offer holistic solutions that enhance web experiences, enable data-driven decision-making, and
               drive business success. </p>
 
-            <button
-              class="tw-group bg-hover tw-shadow-lg tw-rounded-lg tw-relative tw-h-12 tw-mt-2 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 tw-shadow-yellow-600 hover:tw-shadow-2xl tw-w-48 tw-overflow-hidden tw-rounded-lg tw-text-lg tw-shadow-2xl">
-              <div
-                class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
-              </div>
-              <span class="tw-relative tw-inline-flex tw-items-center tw-gap-2 tw-text-white group-hover:tw-text-white">
-                Download CV
+              <button
+      class="tw-group bg-hover tw-shadow-lg tw-rounded-lg tw-relative tw-h-12 tw-mt-2 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 tw-shadow-yellow-600 hover:tw-shadow-2xl tw-w-48 tw-overflow-hidden tw-rounded-lg tw-text-lg tw-shadow-2xl"
+      @click="downloadResume"
+    >
+      <div class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full"></div>
+      <span class="tw-relative tw-inline-flex tw-items-center tw-gap-2 tw-text-white group-hover:tw-text-white">
+        Download CV
+      </span>
+    </button>
 
-              </span>
-            </button>
 
           </div>
         </v-col>
@@ -579,7 +579,7 @@
 
     </section>
 
-    <section class="tw-p-6 tw-px-24 tw-pt-24">
+    <section class="tw-p-6 lg:tw-px-24 tw-px-4 lg:tw-pt-24">
       <v-row class="tw-mx-12">
         <v-col class="" cols="12" md="6" lg="6">
           <div class="tw-p-4 tw-pt-16" data-aos="fade-up">
@@ -618,7 +618,7 @@
 
     </section>
 
-    <section class="tw-p-6 tw-px-24 tw-pt-24">
+    <section class="tw-p-6 lg:tw-px-24 tw-px-4 lg:tw-pt-24">
       <div class="tw-text-center tw-items-center" data-aos="fade-up">
         <div class="tw-text-center tw-items-center" data-aos="fade-up">
         <h1 class="tw-text-black tw-text-5xl tw-font-extrabold">
@@ -708,13 +708,41 @@ export default {
       }
     },
 
+    async downloadResume() {
+      const resumePath = '';
+
+      try {
+        const response = await fetch(resumePath);
+        const blob = await response.blob();
+
+        // Create a Blob URL for the PDF file.
+        const blobUrl = window.URL.createObjectURL(blob);
+
+        // Create an anchor element.
+        const anchor = document.createElement('a');
+        anchor.href = blobUrl;
+        anchor.download = 'CV_Togo_SergeAnan_TASSIGA.pdf'; // Set the desired filename for the downloaded file.
+
+        // Trigger a click event on the anchor to initiate the download.
+        anchor.click();
+
+        // Revoke the Blob URL to release resources.
+        window.URL.revokeObjectURL(blobUrl);
+      } catch (error) {
+        console.error('Error downloading the resume:', error);
+        // Handle any errors, e.g., display an error message to the user.
+      }
+    },
+
+
   },
   head() {
     return {
-      title: 'Welcome to Sheba Plastic Platform'
+      title: 'Welcome to Serge Anan Portfolio'
     };
   }
 };
+
 
 </script>
 

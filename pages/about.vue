@@ -30,7 +30,7 @@
       </nuxt-link>
     </v-card-actions>
 
-    <section class="tw-p-6 tw-px-24 tw-pt-24">
+    <section class="tw-p-6 lg:tw-px-24 tw-px-4 tw-pt-24">
       <v-row class="tw-mx-12">
         <v-col class="" cols="12" md="6" lg="6">
 
@@ -73,17 +73,17 @@
       </v-row>
 
     </section>
-    <section class="tw-p-6 tw-px-24 tw-pt-24">
+    <section class="tw-p-6 lg:tw-px-24 tw-px-4 tw-pt-24">
     <v-row class="tw-mx-12">
       <v-col class="" cols="12" md="6" lg="6">
           <div class="tw-p-4 tw-pt-16" data-aos="fade-up">
             <h1 class="tw-text-black tw-text-5xl tw-font-extrabold tw-text-justify">
-              My <br>
+              My
               <strong class="text-color">Skills</strong>
             </h1>
 
             <p class="tw-text-md tw-text-gray-800 tw-font-medium tw-text-justify tw-pt-4 tw-mb-2 lg:tw-w-3/4">
-              Dive into the versatile realm of coding languages, from front-end web development with HTML, CSS, and
+              Dive into the versatile realm of coding languages, from front-end web development with HTML, CSS, JavaScript, NuxtJs, TailwindCSS, and Vuetify.
             </p>
 
             <button @click="$router.push('/contact')"
@@ -110,7 +110,7 @@
 
 
     <!-- 
-    <section class="tw-p-6 tw-px-24 tw-pt-24 tw-text-center tw-items-center">
+    <section class="tw-p-6 lg:tw-px-24 tw-px-4 tw-pt-24 tw-text-center tw-items-center">
       <div class="tw-text-center tw-items-center" data-aos="fade-up">
         <h1 class="tw-text-black tw-text-5xl tw-font-extrabold">
           My
