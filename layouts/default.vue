@@ -8,7 +8,7 @@
         <div>
           <nuxt-link to="/">
             <h1 class="tw-text-4xl tw-font-extrabold text-color">
-              Serge
+              ST
             </h1>
           </nuxt-link>
 
@@ -875,7 +875,8 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+/* assets/main.css or your custom CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 footer {
   background-image: url('https://img.freepik.com/free-photo/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products-plain-studio-background_1258-54444.jpg');
@@ -899,7 +900,7 @@ button:hover {
   background-color: #FD8D14;
 }
 .font-sans {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Poppins';
 }
 
 /* Popup */

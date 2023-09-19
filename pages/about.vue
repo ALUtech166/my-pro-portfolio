@@ -99,8 +99,8 @@
 
           </div>
         </v-col>
+        
       <v-col class="" cols="12" md="6" lg="6">
-
         <Skills></Skills>
       </v-col>
     </v-row>

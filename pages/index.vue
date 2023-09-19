@@ -15,7 +15,8 @@
               Frontend Developer | Data Scientist
             </h2>
 
-            <p class="tw-text-black tw-text-md tw-mt-4 tw-text-justify">Welcome to my online portfolio. I'm Serge Anan Tassiga, a
+            <p class="tw-text-black tw-text-md tw-mt-4 tw-text-justify">Welcome to my online portfolio. I'm Serge Anan
+              Tassiga, a
               dedicated Frontend Developer and Data Scientist with a strong focus on delivering interactive, accessible,
               and responsive web solutions.</p>
             <!-- <p class="tw-text-black tw-text-md tw-mt-4">Let's turn your ideas into outstanding digital experiences. Explore my work or get in touch to discuss your next project.</p> -->
@@ -249,7 +250,7 @@
                   </g>
                 </svg>
                 <div class="">
-                  <h1 class="tw-text-lg tw-font-extrabold tw-text-justify" data-aos="fade-up">
+                  <h1 class="tw-text-lg tw-text-justify" data-aos="fade-up">
                     Keep <br>
                     Improving
                   </h1>
@@ -305,7 +306,7 @@
     </section>
 
 
-    <section class="service tw-p-6 lg:tw-px-24 tw-px-4 lg:tw-pt-24">
+    <section class="tw-p-6 lg:tw-px-24 tw-px-4 lg:tw-pt-24">
 
       <v-row class="tw-mx-12">
         <v-col class="" cols="12" md="6" lg="6">
@@ -320,15 +321,35 @@
               science to offer holistic solutions that enhance web experiences, enable data-driven decision-making, and
               drive business success. </p>
 
-              <button
-      class="tw-group bg-hover tw-shadow-lg tw-rounded-lg tw-relative tw-h-12 tw-mt-2 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 tw-shadow-yellow-600 hover:tw-shadow-2xl tw-w-48 tw-overflow-hidden tw-rounded-lg tw-text-lg tw-shadow-2xl"
-      @click="downloadResume"
-    >
-      <div class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full"></div>
-      <span class="tw-relative tw-inline-flex tw-items-center tw-gap-2 tw-text-white group-hover:tw-text-white">
-        Download CV
-      </span>
-    </button>
+
+
+            <a href="/CV_Togo_SergeAnan_TASSIGA.pdf" class="
+            tw-flex
+            tw-justify-center
+            tw-items-center
+            tw-w-1/2
+            tw-mt-4
+            tw-text-2xl
+            tw-py-3
+            sm:tw-py-3
+            tw-shadow-lg
+            tw-rounded-lg
+            bg-color
+            tw-text-white
+            hover:tw-text-white
+            tw-duration-500
+            tw-group bg-hover tw-shadow-lg tw-rounded-lg tw-relative tw-h-12 tw-mt-2 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 tw-shadow-yellow-600 hover:tw-shadow-2xl tw-w-48 tw-overflow-hidden tw-rounded-lg tw-text-lg tw-shadow-2xl
+            " target="_blank" aria-label="Download Resume">
+              <div
+                class="tw-absolute tw-inset-0 tw-w-full bg-color tw--transition-all tw-duration-[250ms] tw-ease-out group-hover:tw-w-full">
+              </div>
+              <span class="tw-relative tw-inline-flex tw-items-center tw-gap-2 tw-text-white group-hover:tw-text-white">
+                View Resume
+              </span>
+            </a>
+
+
+
 
 
           </div>
@@ -619,28 +640,28 @@
     </section>
 
     <section class="tw-p-6 lg:tw-px-24 tw-px-4 lg:tw-pt-24">
-      <div class="tw-text-center tw-items-center" data-aos="fade-up">
-        <div class="tw-text-center tw-items-center" data-aos="fade-up">
-        <h1 class="tw-text-black tw-text-5xl tw-font-extrabold">
-          My
-          <strong class="text-color">Works</strong>
-        </h1>
+      <div class="tw-text-center tw-items-center tw-mb-4" >
+        <div class="tw-text-center tw-items-center" >
+          <h1 class="tw-text-black tw-text-5xl tw-font-extrabold">
+            My
+            <strong class="text-color">Works</strong>
+          </h1>
 
-        <p class="tw-text-black tw-text-md lg:tw-mx-56 tw-mb-8">
-          These projects showcase our expertise in frontend development, data science, and our commitment to delivering
-          excellence.
-        </p>
+
+        </div>
+
+        <div class="tw-mt-4">
+          <portfolio></portfolio>
+        </div>
+
+
       </div>
 
-        <portfolio></portfolio>
 
+    </section>
 
-      </div>
-      
-
-  </section>
-
-</div></template>
+  </div>
+</template>
 <script>
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -670,26 +691,26 @@ export default {
   },
 
   computed: {
-        totalPages() {
-          return Math.ceil(this.allPosts.length / this.pagination)
-        },
-        showPreviousPage() {
-          return this.currentPage !== 1
-        },
-        previousPage() {
-          return [0, 1].includes(this.currentPage - 1)
-            ? this.base
-            : `${this.base}?page=${this.currentPage - 1}`;
-        },
-        showNextPage() {
-          return this.currentPage !== this.totalPages
-        },
-        nextPage(currentPage, totalPages) {
-          return this.totalPages > this.currentPage
-            ? `${this.base}?page=${this.currentPage + 1}`
-            : `${this.base}?page=${this.currentPage}`;
-        }
-      },
+    totalPages() {
+      return Math.ceil(this.allPosts.length / this.pagination)
+    },
+    showPreviousPage() {
+      return this.currentPage !== 1
+    },
+    previousPage() {
+      return [0, 1].includes(this.currentPage - 1)
+        ? this.base
+        : `${this.base}?page=${this.currentPage - 1}`;
+    },
+    showNextPage() {
+      return this.currentPage !== this.totalPages
+    },
+    nextPage(currentPage, totalPages) {
+      return this.totalPages > this.currentPage
+        ? `${this.base}?page=${this.currentPage + 1}`
+        : `${this.base}?page=${this.currentPage}`;
+    }
+  },
 
 
   destroyed() {
@@ -747,7 +768,8 @@ export default {
 
 
 
-<style scoped>button {
+<style scoped>
+button {
   border: 1px solid #FD8D14;
   background-color: white;
 
@@ -886,4 +908,5 @@ export default {
 
 .fadeIn {
   animation-name: fadeIn;
-}</style>
+}
+</style>
