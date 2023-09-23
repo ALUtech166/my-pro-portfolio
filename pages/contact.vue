@@ -191,7 +191,7 @@ export default {
 
     async sendMessage(contact) {
       try {
-        const response = await fetch('/api/v1/send-email', {
+        const response = await fetch('https://gilded-paprenjak-1b00f9.netlify.app/.netlify/functions/send-email', {
           method: 'POST',
           body: JSON.stringify({
             contact: {
