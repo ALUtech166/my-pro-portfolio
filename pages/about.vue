@@ -1,15 +1,22 @@
 <template>
   <div>
-    <div class="tw-relative tw-w-full tw-h-72">
-      <img class="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full tw-object-cover"
-        src="https://img.freepik.com/free-photo/businessmen-hands-white-table-with-documents-drafts_176420-354.jpg?w=740&t=st=1693316696~exp=1693317296~hmac=4d5dd6c602e96f8eb10e33b3219c6127a96658bfde3c8c266ad17c71b9e89201"
-        alt="Banner Image">
-      <div
-        class="tw-relative tw-w-full tw-h-full tw-flex tw-flex-col tw-justify-center tw-items-center tw-bg-gray-900 tw-bg-opacity-60">
-        <h1 class="tw-text-4xl tw-font-bold tw-text-white" data-aos="fade-up">About Me</h1>
-      </div>
+   <div class="tw-relative tw-w-full tw-h-80">
+    <img
+      class="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full tw-object-cover tw-bottom-0"
+      src="https://img.freepik.com/premium-photo/creative-workplace-with-laptop-computer-coffee-cup-notepad-flower-pot-flat-lay-top-view_35674-12657.jpg?w=740"
+      alt="Banner Image"
+    />
+    <div
+      class="tw-relative tw-w-full tw-h-full tw-flex tw-flex-col tw-justify-center tw-items-center tw-bottom-0 tw-left-0 tw-w-full tw-h-80 tw-bg-gray-900 tw-bg-opacity-60"
+  
+      >
+      <h1 class="tw-text-4xl tw-font-bold tw-text-white" data-aos="fade-up">About Me</h1>
     </div>
-
+    <div
+      class="tw-absolute"
+     
+    ></div>
+  </div>
     <v-card-actions class="tw-mx-6">
       <nuxt-link to="/"
         class="tw-group tw-relative tw-font-extrabold xl:tw-px-6 tw-px-4 tw-py-2 xl:tw-py-3 tw-rounded-lg tw-shadow-2xl tw-h-12 tw-mt-4 tw-cursor-pointer hover:tw-transform hover:tw-translate-x-2 hover:tw-transition-transform hover:tw-duration-300 hover:tw-shadow-yellow-600 tw-border hover:tw-shadow-lg tw-overflow-hidden tw-rounded-lg tw-bg-white tw-text-lg tw-shadow-2xl">
@@ -30,8 +37,10 @@
       </nuxt-link>
     </v-card-actions>
 
-    <section class="tw-p-6 lg:tw-px-24 tw-px-2 lg:tw-pt-24">
-      <v-row class="lg:tw-mx-12">
+    <section class="tw-p-6 lg:tw-px-24 tw-px-4 lg:tw-pt-24 tw-mx-4 md:tw-mx-16 lg:tw-mx-18 tw-border tw-rounded-lg tw-shadow-xl">
+      <div class="tw-relative">
+        <div class="tw-bg-white">
+          <v-row class="lg:tw-mx-12">
         <v-col class="" cols="12" md="6" lg="6">
 
 
@@ -72,7 +81,11 @@
 
       </v-row>
 
-    </section>
+      </div>
+      </div>
+      </section>
+
+    
     <section class="tw-p-6 lg:tw-px-24 tw-px-4 lg:tw-pt-24">
     <v-row class="lg:tw-mx-12">
       <v-col class="" cols="12" md="6" lg="6">

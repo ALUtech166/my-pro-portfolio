@@ -1,9 +1,9 @@
 <template>
   <div class="">
 
-    <div class="tw-relative tw-w-full tw-h-72">
+    <div class="tw-relative tw-w-full tw-h-80">
       <img class="tw-absolute tw-top-0 tw-left-0 tw-w-full tw-h-full tw-object-cover"
-        src="https://img.freepik.com/free-photo/businessmen-hands-white-table-with-documents-drafts_176420-354.jpg?w=740&t=st=1693316696~exp=1693317296~hmac=4d5dd6c602e96f8eb10e33b3219c6127a96658bfde3c8c266ad17c71b9e89201"
+        src="https://img.freepik.com/premium-photo/creative-workplace-with-laptop-computer-coffee-cup-notepad-flower-pot-flat-lay-top-view_35674-12657.jpg?w=740"
         alt="Banner Image">
       <div
         class="tw-relative tw-w-full tw-h-full tw-flex tw-flex-col tw-justify-center tw-items-center tw-bg-gray-900 tw-bg-opacity-60">

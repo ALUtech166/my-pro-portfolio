@@ -277,11 +277,8 @@
                 </h1>
 
                 <p class="tw-text-md tw-text-gray-800 tw-font-medium tw-text-justify tw-pt-6 tw-mb-4">
-                  In today's dynamic digital landscape, success hinges on harnessing the power of digital media. Our
-                  specialized suite of services is meticulously designed to propel your business forward. With our blend
-                  of innovative web design, advanced development, and data-driven analytics, we empower your brand to
-                  reach its zenith. Explore the possibilities and elevate your business to new heights with our tailored
-                  digital media solutions
+                  In today's dynamic digital landscape, success hinges on harnessing the power of digital media. My
+                  specialized suite of services is meticulously designed to propel your business forward.
                 </p>
 
                 <button @click="$router.push('/about')"
